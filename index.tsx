@@ -47,7 +47,10 @@ const c = classNameFactory("vc-toolbox-maskpaste-");
 
 export default definePlugin({
     name: "MaskedPasteOptions",
-    authors: [Devs.Suffocate],
+    authors: [{
+        name: "Suffocate",
+        id: 772601756776923187n
+    }],
     description: "Allows you to set masked URL paste behaviour (not compatible with NoMaskedUrlPaste)",
 
     contextMenus: {
